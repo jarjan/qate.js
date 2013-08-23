@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+  <meta name="description" content="diploma work of Zharzhan" />
+
+  <!-- <link rel="stylesheet" type="text/css" media="screen" href="../stylesheets/stylesheet.css"> -->
+  <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'> -->
+
+  <script type="text/javascript" src="js/jquery-2.0.0.min.js"></script>
+
+  <script type="text/javascript" src="js/qate.js"></script>
+
+
+  <title>qaté.js</title>
+  <style type="text/css">
+  p, span, h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #000000;
+  }
+  h1 {
+    font-size: 100px;
+    font-weight: lighter;
+  }
+  h1, #result, #description, #foot, #wrap-form {
+    text-align: center;
+  }
+  span {
+    font-size: 10px;
+  }
+  #input-text {
+    width: 200px;
+    height: 50px;
+    font-size: 40px;
+    border: 1px solid #999;
+    background-color: rgba(249, 252, 126, 0.5);
+  }
+  #result {
+    font-size: 40px;
+  }
+  #text:focus {
+    border: 1px solid #999;
+    box-shadow: 0 0 10px rgba(249, 252, 126, 0.5);
+  }
+  #wrap {
+    width: 960px;
+    margin: 0 auto;
+  }
+  #wrap-form {
+    width: 200px;
+    margin: 0 auto;
+    padding: 100px;
+  }
+  #foot {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  </style>
+</head>
+
+<body>
+  <h1>qaté.js</h1>
+  <div id="description">
+    <span>spell-checker for Kazakh language</span>
+  </div>
+  <div id="wrap-form">
+    <span>to check spelling enter word and hit enter</span>
+    <br />
+    <span>*works only with Kazakh words</span>
+    <input id="input-text" type="text" placeholder="қазақша"/>
+    <p id="results"></p>
+  </div>
+
+  <div id="foot">
+    <p class="small">made by Zharzhan: 
+      <a id="tw" href="http://twitter.com/jarjan">twitter</a> / 
+      <a id="vk" href="http://www.linkedin.com/in/zharzhan">linkedin</a> / 
+      <a id="em" href="mailto:zharzhan@gmail.com">email</a>
+    </p>
+  </div>
+
+</body>
+</html>
